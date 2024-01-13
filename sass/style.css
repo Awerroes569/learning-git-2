@@ -2,10 +2,8 @@
 /* Last revised on 4 May 2019 */
 /* Copyright 2019 Eric A. Meyer and the CSS project contributors */
 /* Licensed under the terms of the MIT License */
-
 /* Resetting elements
    ========================================================================== */
-
 html,
 body,
 div,
@@ -87,17 +85,16 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers
    ========================================================================== */
-
 article,
 aside,
 details,
@@ -109,130 +106,121 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Additional resets
    ========================================================================== */
-
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Appending "pre" tag to prevent indenting issue in some versions of IE */
 pre {
-    white-space: pre-wrap;
+  white-space: pre-wrap;
 }
 
 /* Resetting miscellaneous box-model properties
    ========================================================================== */
-
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    /* Temporary outline borders for debugging */
-    outline: 1px solid red !important; 
+  box-sizing: border-box;
+  /* Temporary outline borders for debugging */
+  outline: 1px solid red !important;
 }
 
 /* Clearfix hack
    ========================================================================== */
-
 .clearfix::before,
 .clearfix::after {
-    content: '';
-    display: table;
+  content: "";
+  display: table;
 }
 
 .clearfix::after {
-    clear: both;
+  clear: both;
 }
 
 /* ========================================================================== */
 /* You're ready to go! */
-
 /* GLOBAL */
-
 em {
-    font-style: italic;
+  font-style: italic;
 }
 
 /* POEM */
-
 section {
-    position: relative;
+  position: relative;
 }
 
 section::before {
-    content: "";
-    background: url(https://i.postimg.cc/J4vdnKWG/podworko1.jpg) center/cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.5;
-    z-index: -1;
+  content: "";
+  background: url(https://i.postimg.cc/J4vdnKWG/podworko1.jpg) center/cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: -1;
 }
 
 h1, h3 {
-
-    font-size: 48px;
-    width: fit-content;
-    margin: 50px auto 50px auto;
+  font-size: 48px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 50px auto 50px auto;
 }
 
 h3 {
-    font-weight: bold;
-
+  font-weight: bold;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    margin: 50px auto 20px auto;
-    font-size: 36px;
-    max-width: 600px;
-    color: black;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 20px auto;
+  font-size: 36px;
+  max-width: 600px;
+  color: black;
+  align-items: center;
 }
 
 div {
-
-    max-width: 400px;
-    padding: 20px 10px;
+  max-width: 400px;
+  padding: 20px 10px;
 }
 
 div:nth-child(even) {
-    padding-left: 80px;
+  padding-left: 80px;
 }
 
 /* FOOTER */
-
 footer {
-    margin: 50px;
-    font-size: 24px;
-    width: fit-content;
-    margin: 20px auto 50px auto;
-
-}
+  margin: 50px;
+  font-size: 24px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto 50px auto;
+}/*# sourceMappingURL=style.css.map */
