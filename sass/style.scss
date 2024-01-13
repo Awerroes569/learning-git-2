@@ -152,7 +152,7 @@ pre {
 *::after {
     box-sizing: border-box;
     /* Temporary outline borders for debugging */
-    outline: 1px solid red !important; 
+    /* outline: 1px solid red !important; */ 
 }
 
 /* Clearfix hack
@@ -221,7 +221,6 @@ h3 {
 }
 
 div {
-
     max-width: 600px;
     padding: 20px 10px;
 }
@@ -233,12 +232,10 @@ div:nth-child(even) {
 /* FOOTER */
 
 footer {
-
     font-size: 24px;
     width: fit-content;
     margin: 0 auto;
     padding: 40px 0;
-
 }
 
 /* MEDIA */
@@ -256,5 +253,4 @@ footer {
         font-size: 18px;
         padding: 20px 0;
     }
-
 }

@@ -147,7 +147,7 @@ pre {
 *::after {
   box-sizing: border-box;
   /* Temporary outline borders for debugging */
-  outline: 1px solid red !important;
+  /* outline: 1px solid red !important; */
 }
 
 /* Clearfix hack
