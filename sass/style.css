@@ -190,7 +190,11 @@ h1, h3 {
   font-size: 48px;
   width: -moz-fit-content;
   width: fit-content;
-  margin: 50px auto 50px auto;
+  margin: 0 auto 50px auto;
+}
+
+h1 {
+  padding-top: 50px;
 }
 
 h3 {
@@ -202,13 +206,13 @@ h3 {
   flex-direction: column;
   margin: 50px auto 20px auto;
   font-size: 36px;
-  max-width: 600px;
+  max-width: 700px;
   color: black;
   align-items: center;
 }
 
 div {
-  max-width: 400px;
+  max-width: 600px;
   padding: 20px 10px;
 }
 
@@ -218,9 +222,23 @@ div:nth-child(even) {
 
 /* FOOTER */
 footer {
-  margin: 50px;
   font-size: 24px;
   width: -moz-fit-content;
   width: fit-content;
-  margin: 20px auto 50px auto;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+/* MEDIA */
+@media (max-width: 700px) {
+  h1, h3 {
+    font-size: 36px;
+  }
+  .container {
+    font-size: 24px;
+  }
+  footer {
+    font-size: 18px;
+    padding: 20px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
